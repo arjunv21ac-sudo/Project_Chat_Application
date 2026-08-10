@@ -9,8 +9,8 @@ import Input from '../Input/Input';
 
 import './Chat.css';
 
-const ENDPOINT = 'https://project-chat-application-em2n.onrender.com';
 
+const ENDPOINT = 'https://project-chat-application.herokuapp.com/';
 let socket;
 
 const Chat = ({ location }) => {
